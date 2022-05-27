@@ -1,0 +1,26 @@
+.backGround {
+    background-image: url(grass_block_side.png),
+        url(dirt.png);
+    background-repeat: repeat-x,
+        repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+
+.vignette {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1000px rgba(0, 0, 0, .9) inset;
+}
+
+.boxOne {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.boxOneBackground {}
