@@ -1,26 +1,54 @@
 .backGround {
-    background-image: url(grass_block_side.png),
-        url(dirt.png);
-    background-repeat: repeat-x,
-        repeat;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-}
-
-
-.vignette {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 1000px rgba(0, 0, 0, .9) inset;
+  display: grid;
+  background-image: url(grass_block_side.png), url(dirt.png);
+  background-repeat: repeat-x, repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 0 1000px rgb(0 0 0 / 90%) inset;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
 .boxOne {
-    position: absolute;
-    top: 25%;
-    left: 25%;
+  grid-column: 1/2;
+  opacity: 0.5;
+  position: absolute;
+  font-family: "VT323", monospace;
+  color: white;
+  font-size: 100px;
+  outline: 5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.boxOneBackground {}
+.boxName {
+  border: 5px solid rgba(45, 7, 102, 0.95);
+  outline: 5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 10px;
+}
+
+.boxTwo {
+  grid-column: 2/3;
+  opacity: 0.5;
+  position: absolute;
+  font-family: "VT323", monospace;
+  color: white;
+  font-size: 100px;
+  outline: 5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imageBlock {
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  display: grid;
+  justify-items: center;
+  padding: 10px;
+}
+
