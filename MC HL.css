@@ -13,9 +13,7 @@
 
 .boxOne {
   grid-column: 1/2;
-  opacity: 0.5;
   position: absolute;
-  font-family: "VT323", monospace;
   color: white;
   font-size: 100px;
   outline: 5px solid rgba(0, 0, 0, 0.8);
@@ -30,13 +28,12 @@
   background-color: rgba(0, 0, 0, 0.8);
   margin: 10px;
   text-align: center;
+  font-family: "VT323", monospace;
 }
 
 .boxTwo {
   grid-column: 2/3;
-  opacity: 0.5;
   position: absolute;
-  font-family: "VT323", monospace;
   color: white;
   font-size: 100px;
   outline: 5px solid rgba(0, 0, 0, 0.8);
@@ -51,5 +48,5 @@
   display: grid;
   justify-items: center;
   padding: 10px;
+  font-family: "VT323", monospace;
 }
-
