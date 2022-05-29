@@ -6,20 +6,19 @@
   width: 100%;
   position: fixed;
   box-shadow: 0 0 1000px rgb(0 0 0 / 90%) inset;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto;
   justify-items: center;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .boxOne {
-  grid-column: 1/3;
-  position: absolute;
   color: white;
   font-size: 100px;
   outline: 5px solid rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 15%;
+  padding: 6rem 3rem;
 }
 
 .boxName {
@@ -34,14 +33,12 @@
 }
 
 .boxTwo {
-  grid-column: 2/4;
-  position: absolute;
   color: white;
   font-size: 100px;
   outline: 5px solid rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 15%;
+  padding: 6rem 3rem;
 }
 
 .imageBlock {
