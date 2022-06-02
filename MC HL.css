@@ -5,7 +5,7 @@
   height: 100%;
   width: 100%;
   position: fixed;
-  box-shadow: 0 0 1000px rgb(0 0 0 / 90%) inset;
+  box-shadow: 0 0 100rem rgb(0 0 0 / 90%) inset;
   grid-template-columns: auto auto;
   justify-items: center;
   align-items: center;
@@ -14,11 +14,11 @@
 
 .boxOne {
   color: white;
-  font-size: 100px;
-  outline: 5px solid rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
+  font-size: 6rem;
+  outline: .1rem solid rgba(0, 0, 0, 0.7);
+  border-radius: .1rem;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 6rem 3rem;
+  padding: 6rem 6rem;
 }
 
 .boxName {
@@ -26,7 +26,7 @@
   outline: 5px solid rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.8);
-  margin: 10px;
+  margin: 1rem;
   text-align: center;
   font-family: "VT323", monospace;
   text-shadow: 5px 5px gray;
@@ -34,11 +34,11 @@
 
 .boxTwo {
   color: white;
-  font-size: 100px;
-  outline: 5px solid rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
+  font-size: 6rem;
+  outline: .1rem solid rgba(0, 0, 0, 0.7);
+  border-radius: .1rem;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 6rem 3rem;
+  padding: 6rem 6rem;
 }
 
 .imageBlock {
@@ -48,4 +48,54 @@
   justify-items: center;
   padding: 10px;
   font-family: "VT323", monospace;
+}
+
+.buttonTwoOne {
+  height: auto;
+  width: auto;
+  border-top: .5rem solid #A1A1A1;
+  border-left: .5rem solid #A1A1A1;
+  border-right: .5rem solid #595959;
+  border-bottom: 1rem solid #595959;
+  background-color: #858585;
+  outline: 5px solid rgba(0, 0, 0, 1);
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "VT323", monospace;
+  text-shadow: .15rem .15rem green;
+  margin: 1.25rem;
+  color: rgb(72, 202, 72);
+}
+
+.buttonTwoTwo {
+  height: auto;
+  width: auto;
+  border-top: .5rem solid #A1A1A1;
+  border-left: .5rem solid #A1A1A1;
+  border-right: .5rem solid #595959;
+  border-bottom: 1rem solid #595959;
+  background-color: #858585;
+  outline: 5px solid rgba(0, 0, 0, 1);
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "VT323", monospace;
+  text-shadow: .15rem .15rem red;
+  margin: 1.25rem;
+  color: rgb(253, 142, 160);
+}
+
+.buttonOne {
+  height: auto;
+  width: auto;
+  border-top: .5rem solid rgb(0 0 0 / 0%);
+  border-left: .5rem solid rgb(0 0 0 / 0%);
+  border-right: .5rem solid rgb(0 0 0 / 0%);
+  border-bottom: 1rem solid rgb(0 0 0 / 0%);
+  background-color: rgb(0 0 0 / 0%);
+  outline: 5px solid rgb(0 0 0 / 0%);
+  font-size: 3rem;
+  text-align: center;
+  font-family: "VT323", monospace;
+  margin: 1.25rem;
+  color: rgb(0 0 0 / 0%);
 }
