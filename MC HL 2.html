@@ -17,27 +17,30 @@
       <div class="imageBlock">
         <img class="src" src="3d_grass_block.png" alt="3d grass block" />
       </div>
-      <div class="buttonOne">
-        Higher
-      </div>
       <div class="boxName">Grass</div>
-      <div class="buttonOne">
-        Lower
-      </div>
     </div>
     <div class="boxTwo">
       <div class="imageBlock">
         <img class="src" src="3d_grass_block.png" alt="3d grass block" />
       </div>
       <div class="buttonTwoOne">
-        Higher
+        <button>Higher</button>
       </div>
       <div class="boxName">Grass</div>
       <div class="buttonTwoTwo">
-        Lower
+        <button>Lower</button>
       </div>
     </div>
   </div>
+  <button class="btcAddress" id="copy" onclick="copyEvent('copy')">bc1q5g9wqupd2qart9nnt73sefclgjy7s4edwf2z5d</button>
+  <script>
+    function copyEvent(id) {
+      var str = document.getElementById(id);
+      window.getSelection().selectAllChildren(str);
+      document.execCommand("Copy")
+    }
+  </script>
+
 </body>
 
 </html>

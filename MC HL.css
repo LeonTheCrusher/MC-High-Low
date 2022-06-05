@@ -18,7 +18,7 @@
   outline: .1rem solid rgba(0, 0, 0, 0.7);
   border-radius: .1rem;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 6rem 6rem;
+  padding: 3rem 6rem;
 }
 
 .boxName {
@@ -38,7 +38,7 @@
   outline: .1rem solid rgba(0, 0, 0, 0.7);
   border-radius: .1rem;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 6rem 6rem;
+  padding: 3rem 6rem;
 }
 
 .imageBlock {
@@ -46,11 +46,11 @@
   border-radius: 25px;
   display: grid;
   justify-items: center;
-  padding: 10px;
+  padding: 1rem;
   font-family: "VT323", monospace;
 }
 
-.buttonTwoOne {
+/* .buttonTwoOne {
   height: auto;
   width: auto;
   border-top: .5rem solid #A1A1A1;
@@ -64,10 +64,10 @@
   font-family: "VT323", monospace;
   text-shadow: .15rem .15rem green;
   margin: 1.25rem;
-  color: rgb(72, 202, 72);
-}
+  color: rgb(72, 202, 1);
+} */
 
-.buttonTwoTwo {
+/* .buttonTwoTwo {
   height: auto;
   width: auto;
   border-top: .5rem solid #A1A1A1;
@@ -81,8 +81,8 @@
   font-family: "VT323", monospace;
   text-shadow: .15rem .15rem red;
   margin: 1.25rem;
-  color: rgb(253, 142, 160);
-}
+  color: rgb(256, 75, 75);
+} */
 
 .buttonOne {
   height: auto;
@@ -98,4 +98,65 @@
   font-family: "VT323", monospace;
   margin: 1.25rem;
   color: rgb(0 0 0 / 0%);
+}
+
+.buttonTwoOne>button {
+  height: 100%;
+  width: 86.75%;
+  border-top: .5rem solid #A1A1A1;
+  border-left: .5rem solid #A1A1A1;
+  border-right: .5rem solid #595959;
+  border-bottom: 1rem solid #595959;
+  background-color: #858585;
+  outline: 5px solid rgba(0, 0, 0, 1);
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "VT323", monospace;
+  text-shadow: .15rem .15rem green;
+  margin: 1.25rem;
+  color: rgb(72, 202, 1);
+}
+
+.buttonTwoTwo>button {
+  height: 100%;
+  width: 86.75%;
+  border-top: .5rem solid #A1A1A1;
+  border-left: .5rem solid #A1A1A1;
+  border-right: .5rem solid #595959;
+  border-bottom: 1rem solid #595959;
+  background-color: #858585;
+  outline: 5px solid rgba(0, 0, 0, 1);
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "VT323", monospace;
+  text-shadow: .15rem .15rem red;
+  margin: 1.25rem;
+  color: rgb(256, 75, 75);
+}
+
+button:hover {
+  outline: 5px solid rgba(256, 256, 256, 1);
+}
+
+
+.btcAddress {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  background-color: rgba(0, 0, 0, 0.7);
+  size: .1rem;
+  color: white;
+}
+
+body :not(.btcAddress) {
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
 }
