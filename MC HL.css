@@ -148,7 +148,7 @@ button:hover {
   color: white;
 }
 
-body :not(.btcAddress) {
+body {
   user-select: none;
   /* supported by Chrome and Opera */
   -webkit-user-select: none;
